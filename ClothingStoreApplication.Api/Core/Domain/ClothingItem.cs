@@ -15,6 +15,7 @@
         public bool IsBestSeller { get; protected set; }
         public string Collection { get; protected set; }
         public string Style { get; protected set; }
+        public string Gender {  get; protected set; }
 
         // Protected constructor for EF compatibility
         protected ClothingItem() { }

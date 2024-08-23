@@ -3,6 +3,10 @@
     public class Shirt : ClothingItem
     {
         public string Cut { get; private set; }
+        public string SleeveLength { get; private set; }
+        public string CollarStyle { get; private set; }
+        public string CuffStyle { get; private set; }
+        public string PocketType { get; private set; }
 
         // Private constructor for the builder pattern
         private Shirt() { }
@@ -89,11 +93,43 @@
                 return this;
             }
 
+            public Builder setGender(string gender)
+            {
+                _shirt.Gender = gender;
+                return this;
+            }
+
             public Builder SetCut(string cut)
             {
                 _shirt.Cut = cut;
                 return this;
             }
+
+            public Builder SetSleeveLength(string sleeveLength)
+            {
+                _shirt.SleeveLength = sleeveLength;
+                return this;
+            }
+
+            public Builder SetCollarStyle(string collarStyle)
+            {
+                _shirt.CollarStyle = collarStyle;
+                return this;
+            }
+
+            public Builder SetCuffStyle(string cuffStyle)
+            {
+                _shirt.CuffStyle = cuffStyle;
+                return this;
+            }
+
+            public Builder SetPocketType(string pocketType)
+            {
+                _shirt.PocketType = pocketType;
+                return this;
+            }
+
+
 
             // Build method to return the final Shirt object
             public Shirt Build()

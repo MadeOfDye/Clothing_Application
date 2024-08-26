@@ -88,7 +88,6 @@ This README provides an overview of the key features and requirements of a cloth
 ### Product Types
 - Accessories:
 	- Type: Hats, Scarves, Belts, Gloves, Sunglasses
-	- Material: Leather, Wool, Cotton, Polyester
 	- Size: Adjustable, Fixed Size
 	- Color Options: Multiple color variations
 	- Functional Features: UV Protection (for sunglasses), Touchscreen Compatible (for gloves)
@@ -243,7 +242,18 @@ This README provides an overview of the key features and requirements of a cloth
 	- Graphic Design: Printed Graphic, Embroidered, Solid Color, Patterned
 	- Special Features: Moisture-Wicking, Anti-Odor, Stretch Fabric
 	- Label Type: Tagless, Tag, Heat-Transfer Label
-
+- Tops
+	- Top Type: Blouse, Tank Top, Crop Top, Camisole, Tunic
+    - Neckline Style: Round Neck, V-Neck, Scoop Neck, Halter Neck, Square Neck
+    - Sleeve Length: Long Sleeve, Short Sleeve, Sleeveless, Cap Sleeve, 3/4 Sleeve
+    - Fit Type: Regular Fit, Slim Fit, Loose Fit, Boxy Fit
+    - Hem Style: Straight Hem, Curved Hem, High-Low Hem, Asymmetrical Hem
+    - Fabric Type: Jersey, Satin, Cotton, Polyester, Silk, Chiffon
+    - Back Design: Open Back, Keyhole Back, Racerback, Cut-Out Back
+    - Closure Type: Button-Up, Zip-Up, Pull-On, Tie Closure
+    - Decorative Details: Ruffles, Lace, Embroidery, Beading, Sequins
+    - Length: Cropped, Waist-Length, Hip-Length, Tunic-Length
+    - Layering: Single Layer, Double Layer, Lined, Unlined
 ### Product Display
 - High-resolution images with zoom and 360-degree view
 - Video demonstrations of products

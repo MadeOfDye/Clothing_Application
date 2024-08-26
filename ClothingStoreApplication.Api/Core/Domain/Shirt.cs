@@ -33,6 +33,12 @@
                 return this;
             }
 
+            public Builder SetColor(string color)
+            {
+                _shirt.Color = color;
+                return this;
+            }
+
             public Builder SetMaterial(string material)
             {
                 _shirt.Material = material;
@@ -45,9 +51,9 @@
                 return this;
             }
 
-            public Builder SetDiscount(bool discount)
+            public Builder SetIsDiscount(bool isDiscount)
             {
-                _shirt.Discount = discount;
+                _shirt.IsDiscount = isDiscount;
                 return this;
             }
 
@@ -57,9 +63,9 @@
                 return this;
             }
 
-            public Builder SetComposition(string composition)
+            public Builder SetMaterialComposition(string composition)
             {
-                _shirt.Composition = composition;
+                _shirt.MaterialComposition = composition;
                 return this;
             }
 
@@ -71,7 +77,7 @@
 
             public Builder SetNewArrival(bool newArrival)
             {
-                _shirt.NewArrival = newArrival;
+                _shirt.IsNewArrival = newArrival;
                 return this;
             }
 

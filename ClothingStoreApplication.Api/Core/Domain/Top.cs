@@ -1,6 +1,6 @@
 ﻿namespace ClothingStoreApplication.Api.Core.Domain
 {
-    public class Backpacks
+    public class Top : ClothingItem
     {
     }
 }

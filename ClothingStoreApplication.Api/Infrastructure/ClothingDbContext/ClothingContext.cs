@@ -1,7 +1,7 @@
 ﻿using ClothingStoreApplication.Api.Core.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClothingStoreApplication.Api.Infrastructure.DbContext
+namespace ClothingStoreApplication.Api.Infrastructure.ClothingDbContext
 {
     public class ClothingContext : DbContext
     {

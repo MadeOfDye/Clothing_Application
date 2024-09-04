@@ -1,3 +1,4 @@
+
 # Clothing Store Application
 
 This README provides an overview of the key features and requirements of a clothing store application. The application supports multiple user roles including customers, managers, and administrators. It offers various features such as a shopping cart, checkout system, product management, and more.
@@ -344,3 +345,7 @@ This README provides an overview of the key features and requirements of a cloth
 ### Sustainability Information
 - Display sustainability information for products (eco-friendly materials, ethical sourcing)
 - Option to donate to environmental causes at checkout
+=======
+# Clothing_Application
+Generic Clothing Store application Developed with ASP.NET backend and Interfaces for Web, Mobile and Desktop operating on a centralized server.
+

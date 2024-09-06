@@ -1,6 +1,6 @@
 ﻿namespace ClothingStoreApplication.Api.Core.Domain
 {
-    public class ClothingItem
+    public abstract class ClothingItem
     {
         public Guid Id { get; protected set; } // EF requires public or protected setters for mapping
         public string Name { get; protected set; }
